@@ -1,0 +1,186 @@
+*{
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family:system-ui,  Roboto, sans-serif sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+body{
+  color: rgb(34, 36, 37);
+  padding: 0px 100px;
+}
+.header{
+  background-color: rgb(201, 158, 158);
+  display: flex;
+  justify-content: space-evenly;
+}
+.contact li{
+  display: inline-block;
+  margin: 0px 8px;
+
+
+  display: flex;
+}
+.icon{
+  display: flex;
+}
+.icon li{
+  display: inline-block;
+  margin: 20px 10px;
+
+
+  flex-grow: 1;
+}
+i{
+  font-size: 20px;
+}
+
+/* top header end here wwwwwwwwwwwwwwww */
+header{
+  background-color: rgb(61, 86, 109);
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+header .logo{
+  background-color: cornflowerblue;
+  flex-grow: 2;
+}
+header .logo img{
+  height: 100px;
+  width: 100;
+  border-radius: 50%;
+}
+header .manu{
+  flex-grow:3;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+  
+}
+header .manu li{
+  display: inline-block;
+  margin: 20px 0px 10px 10px;
+}
+header .manu li a{}
+
+
+
+/* header end here wwwwwwwwwwwwwwwwwww */
+.banar{
+  background-color: cadetblue;
+  display: flex;
+  background-image: url("/img/17.jpg");
+  background-size: cover;
+  color: antiquewhite;
+}
+.banar .info{
+  margin: 0px 0px 0px 0px;
+  flex-grow: 1;
+}
+.banar .parsonal-img{
+  
+  flex-grow:5 ;
+ 
+  border-radius: 50%;
+}
+.banar .parsonal-img > img{
+  border: 1px dotted rebeccapurple;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.banar-down{
+  background-color: rgb(57, 91, 119);
+  display: flex;
+  opacity: 80%;
+}
+
+.service{
+  background-color: rgb(219, 190, 155);
+  display: flex;
+  text-align: center;
+ padding: 5px 0px 0px 0px;
+}
+.cards{
+  background-color:cornflowerblue;
+  text-align: center;
+  max-height: 280px;
+  /* position: relative; */
+  border: 1px solid yellow;
+
+}
+/*  */
+.card-logo{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: rgb(80, 55, 37);
+  /* position: absolute; */
+  top: -10%;
+  left: 40%;
+  display: block;
+  margin: auto;
+}
+.card-logo img{
+  display: inline-block;
+  height: 100%;
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+/* service end here wwwwwwwwwwwwwwww */
+
+.footer{
+  background-color: rgb(90, 113, 156);
+  display: flex;
+  align-items: center;
+}
+.link{
+flex-grow: 1;
+display: flex;
+}
+.link ul{
+  flex-grow: 1;
+display: inline-block;
+padding: 0px 5px;
+}
+.link li ,a{
+  list-style: none;
+  color: white;
+}
+.social{
+flex-grow: 1;
+line-height: 5px;
+display: flex;
+}
+
+.social li{
+  flex-grow: 1;
+list-style: none;
+display: inline-block;
+padding: 0px 20px;
+line-height: 5px;
+}
+i{
+  font-size: 30px;
+}
+.social div li a{
+line-height: 20px;
+display: inline-block;
+}
+
+/*        */
+
+/* .mmm{
+  background-color: cadetblue;
+  display: flex;
+  background-image: url("/img/16.jpg");
+  background-size: cover;
+  color: antiquewhite;
+} */
